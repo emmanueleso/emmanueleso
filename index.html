@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Emmanuel Esomonu — Data Engineer and AI professional building scalable data and intelligent systems."
+    />
+    <title>Emmanuel Esomonu | Data & AI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <canvas id="snow-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="container nav">
+        <a class="brand" href="#top">Emmanuel<span>Esomonu</span></a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <p class="eyebrow">Data Engineer • AI Professional • Software Builder</p>
+        <h1>Building elegant, scalable data and AI systems.</h1>
+        <p class="lead">
+          I’m Emmanuel Esomonu, a Maryland-based Data Science and AI professional with 10+ years of
+          experience spanning data engineering, backend development, analytics, and model training support.
+        </p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+        </div>
+      </section>
+
+      <section id="about" class="container section card reveal">
+        <h2>About</h2>
+        <p>
+          I design high-performance data platforms and AI-driven workflows that balance reliability,
+          speed, and maintainability. From Apache Spark ETL pipelines to retrieval-augmented LLM systems,
+          my work focuses on turning complexity into clean, production-ready solutions.
+        </p>
+      </section>
+
+      <section id="skills" class="container section reveal">
+        <h2>Top Skills</h2>
+        <div class="grid skill-grid">
+          <article class="card"><h3>Data & AI</h3><p>Data Annotation, NLP, Deep Learning, LLMs, Feature Engineering, Predictive Modeling</p></article>
+          <article class="card"><h3>Engineering & Cloud</h3><p>Python, SQL, Apache Spark, FastAPI, REST APIs, Docker, Kubernetes, AWS, GCP</p></article>
+          <article class="card"><h3>ML Frameworks</h3><p>PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, MLflow</p></article>
+          <article class="card"><h3>Analytics</h3><p>Pandas, NumPy, Tableau, Power BI, Statistical Analysis, Data Storytelling</p></article>
+        </div>
+      </section>
+
+      <section id="experience" class="container section reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="card"><h3>Databricks <span>• Data Engineer</span></h3><p class="meta">Jan 2023 – Present</p><p>Built scalable Spark and Python ETL pipelines, optimized real-time workflows on AWS/GCP, and improved data quality automation for AI teams.</p></article>
+          <article class="card"><h3>Atlassian <span>• Software Engineer</span></h3><p class="meta">Feb 2020 – Dec 2022</p><p>Developed backend APIs and cloud-native microservices, improving product performance, deployment consistency, and service reliability.</p></article>
+          <article class="card"><h3>Oracle <span>• Data Analyst</span></h3><p class="meta">Jun 2017 – Jan 2020</p><p>Delivered actionable insights through SQL-driven analytics and BI dashboards while maintaining high reporting accuracy.</p></article>
+        </div>
+      </section>
+
+      <section id="projects" class="container section reveal">
+        <h2>Featured Projects</h2>
+        <div class="grid project-grid">
+          <article class="card project">
+            <h3>EmmaEso Enterprise Knowledge Assistant</h3>
+            <p>RAG chatbot built with LangChain + FAISS to provide grounded Q&A across 50K+ enterprise documents.</p>
+            <a href="https://emmanueleso.github.io/emmaeso-llm-Assistant/" target="_blank" rel="noopener">Live Demo ↗</a>
+          </article>
+          <article class="card project">
+            <h3>typeorm-json-api</h3>
+            <p>Production-grade TypeORM CRUD scaffolding with clean abstractions and fast setup for backend teams.</p>
+            <a href="https://emmanueleso.github.io/typeorm-json-api/" target="_blank" rel="noopener">Live Demo ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container section card reveal">
+        <h2>Let’s Connect</h2>
+        <p>If you’re building ambitious AI or data products, I’d love to collaborate.</p>
+        <div class="contact-links">
+          <a href="mailto:esomonu.emmanuel33@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/emmanuel-esomonu-a3636140b/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/emmanueleso" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> Emmanuel Esomonu. Crafted with precision.</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
